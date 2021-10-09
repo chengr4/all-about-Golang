@@ -30,3 +30,4 @@ At the moment just before `Golang` was created:
 
 1. [Learn Go Programming - Golang Tutorial for Beginners (2019.6)](https://youtu.be/YS4e4q9oBaU)
 2. [The Net Ninja; Go Tutorial (Golang) for Beginners (2021)](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gC88BEo9czgyS72A3doDeM)
+3. [Standard library](https://pkg.go.dev/std)
