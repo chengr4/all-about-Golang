@@ -22,10 +22,10 @@ func main() {
 	name := "tifa"
 
 	updateName(name)
-	fmt.Println("1: ", name)
+	fmt.Println("1: ", name) // tifa
 
 	name = updateName(name)
-	fmt.Println("2: ", name)
+	fmt.Println("2: ", name) // wedge
 
 	// group B types -> slices, maps, functions
 	// pointer wrapper values
@@ -35,5 +35,5 @@ func main() {
 	}
 
 	updateMenu(menu)
-	fmt.Println(menu)
+	fmt.Println(menu) //map[coffee:2.99 ice cream:3.99 pie:5.95]
 }
