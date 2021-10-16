@@ -11,6 +11,9 @@
 + Garbage collected: Do not need to focus on manage memory
 + built-in testing support
 + Object-oriented (but in it's own way)
++ Go is a **pass by value** language
+  + Go makes "copies" of values when passed into functions
+  > See `first-try/pass-by-value.go`
 
 ## FAQ
 
