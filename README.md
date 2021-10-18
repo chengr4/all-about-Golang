@@ -17,6 +17,17 @@
   + Go makes "copies" of values when passed into functions
   > See `first-try/pass-by-value.go`
 
+## types
+
+| Non-Pointer Values | Pointer Wrapper Values |
+| ------------------ | ---------------------- |
+| string             | slice                  |
+| int                | map                    |
+| float              | function               |
+| boolean            |                        |
+| **array**          |                        |
+| **struct**         |                        |
+
 ## FAQ
 
 ### 1. Why a New Language?
