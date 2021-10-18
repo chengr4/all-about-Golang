@@ -11,7 +11,7 @@ type bill struct {
 }
 
 // format the bill
-func (b bill) format() string {
+func (b *bill) format() string {
 	fs := "Bill brealdown: \n"
 	var total float64 = 0
 
@@ -21,17 +21,30 @@ func (b bill) format() string {
 		total += v
 	}
 
+	fs += fmt.Sprintf("%v ... $%v\n", "tip:", b.tip)
+
 	// total
-	fs += fmt.Sprintf("%v ... $%0.2f", "total:", total)
+	fs += fmt.Sprintf("%v ... $%0.2f\n", "total:", total+b.tip)
 
 	return fs
+}
+
+// update tip
+func (b *bill) updateTip(tip float64) {
+	// here will dereference itself automatically
+	b.tip = tip
+}
+
+// add an item
+func (b *bill) addItem(name string, price float64) {
+	b.items[name] = price
 }
 
 // make a new bills
 func createBill(name string) bill {
 	initBill := bill{
 		name:  name,
-		items: map[string]float64{"apple": 5.99, "cake": 3.99},
+		items: map[string]float64{},
 		tip:   0,
 	}
 
@@ -45,4 +58,6 @@ func main() {
 	fmt.Println(myBill)
 	fmt.Println(myBill.format())
 
+	myBill.updateTip(10)
+	fmt.Println(myBill.format())
 }
