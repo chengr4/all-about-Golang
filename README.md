@@ -1,8 +1,8 @@
 # All About Golang
 
-[first-try/](./first-try): This folder includes some try of Golang
+[first-try](./first-try): This folder includes some try of Golang
 
-[types/](./types)
+[types](./types)
 
 ## Attrbiute
 
