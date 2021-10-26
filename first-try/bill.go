@@ -1,5 +1,9 @@
 package main
 
+/*
+this file includes concepts: input, switch
+*/
+
 // fmt: for formatting and printing
 import (
 	"bufio"
@@ -49,8 +53,26 @@ func createBill() bill {
 func promptOptions(b bill) {
 	reader := bufio.NewReader(os.Stdin)
 	option, _ := getInput("Choose an option (a: add a item, s: save the bill, t: add the tip): ", reader)
-	fmt.Println(option)
 
+	// switch
+	switch option {
+	case "a":
+		fmt.Println("you chose a")
+		name, _ := getInput("Item name: ", reader)
+		price, _ := getInput("Item price: ", reader)
+
+		fmt.Println("name: ", name, ", price: ", price)
+	case "t":
+		fmt.Println("you chose t")
+		tip, _ := getInput("Enter tip amount ($)", reader)
+
+		fmt.Println("tip: ", tip)
+	case "s":
+		fmt.Println("you chose s")
+	default:
+		fmt.Println("that was not a vaild option...")
+		promptOptions(b)
+	}
 }
 
 // main(): the entry point of the application
