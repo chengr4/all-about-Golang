@@ -12,7 +12,7 @@ type bill struct {
 }
 
 // format the bill
-func (b bill) format() string {
+func (b *bill) format() string {
 	// do something
 }
 ```
