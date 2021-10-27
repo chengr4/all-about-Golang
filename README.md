@@ -4,6 +4,10 @@
 
 [types](./types)
 
+## TOLEARN NEXT
+
++ `[]byte()`
+
 ## Attrbiute
 
 + Strong and statically typed
