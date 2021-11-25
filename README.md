@@ -46,6 +46,19 @@ At the moment just before `Golang` was created:
 
 `go run <name of the file>`
 
+## Package types
+
+### main (executable)
+
+```
+go run *.go
+go build -o exec
+```
+
+### non main (non executable)
+
+`import "github.com/xxxx/xxxxx"`
+
 ## References
 
 1. [Learn Go Programming - Golang Tutorial for Beginners (2019.6)](https://youtu.be/YS4e4q9oBaU)
