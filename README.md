@@ -8,6 +8,14 @@
 
 + `[]byte()`
 
+## Module Management
+
+- `go mod init`: init project
+- `go build`
+- `go list -m all`: 查看 dependency
+- `go get`: add the new dependency
+- `go mod tidy`: 自動刪除未使用的 dependencies
+
 ## Attrbiute
 
 + Strong and statically typed
