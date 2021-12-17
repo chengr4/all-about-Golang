@@ -80,3 +80,9 @@ go build -o exec
 1. [Learn Go Programming - Golang Tutorial for Beginners (2019.6)](https://youtu.be/YS4e4q9oBaU)
 2. [The Net Ninja; Go Tutorial (Golang) for Beginners (2021)](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gC88BEo9czgyS72A3doDeM)
 3. [Standard library](https://pkg.go.dev/std)
+
+### High Concurrency
+
+1. https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html?fbclid=IwAR0Qs3jYR4dJBkINCn6BW5lPizwWNPBZRI_8Q6nW27uUdD3M-mdjr3pWKzE
+
+> ps. 高效能 backend system 的很好導讀文
