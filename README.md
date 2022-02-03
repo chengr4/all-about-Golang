@@ -1,6 +1,20 @@
 # All About Golang
 
-`first-try/`: This folder includes some try of Golang
+[first-try](./first-try): This folder includes some try of Golang
+
+[types](./types)
+
+## TOLEARN NEXT
+
++ `[]byte()`
+
+## Module Management
+
+- `go mod init`: init project
+- `go build`
+- `go list -m all`: 查看 dependency
+- `go get`: add the new dependency
+- `go mod tidy`: 自動刪除未使用的 dependencies
 
 ## Attrbiute
 
@@ -14,6 +28,17 @@
 + Go is a **pass by value** language
   + Go makes "copies" of values when passed into functions
   > See `first-try/pass-by-value.go`
+
+## types
+
+| Non-Pointer Values | Pointer Wrapper Values |
+| ------------------ | ---------------------- |
+| string             | slice                  |
+| int                | map                    |
+| float              | function               |
+| boolean            |                        |
+| **array**          |                        |
+| **struct**         |                        |
 
 ## FAQ
 
@@ -29,8 +54,35 @@ At the moment just before `Golang` was created:
 
 `go run <name of the file>`
 
+### What is `go.mod`
+
+When your code imports packages contained in other modules, you manage those dependencies through your code's own module. That module is defined by a go.mod file that tracks the modules that provide those packages. That go.mod file stays with your code, including in your source code repositor
+
+```
+go mod init example.com/m
+```
+
+## Package types
+
+### main (executable)
+
+```
+go run *.go
+go build -o exec
+```
+
+### non main (non executable)
+
+`import "github.com/xxxx/xxxxx"`
+
 ## References
 
 1. [Learn Go Programming - Golang Tutorial for Beginners (2019.6)](https://youtu.be/YS4e4q9oBaU)
 2. [The Net Ninja; Go Tutorial (Golang) for Beginners (2021)](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gC88BEo9czgyS72A3doDeM)
 3. [Standard library](https://pkg.go.dev/std)
+
+### High Concurrency
+
+1. https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part1.html?fbclid=IwAR0Qs3jYR4dJBkINCn6BW5lPizwWNPBZRI_8Q6nW27uUdD3M-mdjr3pWKzE
+
+> ps. 高效能 backend system 的很好導讀文
