@@ -26,6 +26,19 @@ func (b *bill) format() string {
 	// do something
 }
 ```
+
+```golang
+type Point struct {
+	x int32
+	y int32
+}
+
+func main() {
+	pi := Point{x: 3}
+	fmt.Println(p1) // {3 0} => y is default value 0
+}
+```
+
 ## Interface
 
 Interface basically groups types together based on their **methods**
