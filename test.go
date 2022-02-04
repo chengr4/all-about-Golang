@@ -8,6 +8,11 @@ type score struct {
 	y int64
 }
 
+type cirlce struct {
+	redius float32
+	len    score
+}
+
 func changeXWithPointer(pt *score) {
 
 }
@@ -17,4 +22,5 @@ func main() {
 	p1 := &score{x: 3}
 	fmt.Println(p1)
 	changeXWithPointer(p1)
+
 }
