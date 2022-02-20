@@ -31,6 +31,8 @@
 
 ## types
 
+> [GOTO go types](./go-types)
+
 | Non-Pointer Values | Pointer Wrapper Values |
 | ------------------ | ---------------------- |
 | string             | slice                  |
