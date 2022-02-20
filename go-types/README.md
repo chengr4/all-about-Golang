@@ -39,6 +39,23 @@ func main() {
 }
 ```
 
+Struct Method:
+
+```golang
+type Student struct {
+	name   string
+	grades []int
+	age    int
+}
+
+// struct method
+// important to put pointer there When needing to change object's value
+func (s *Student) setAge(age int) {
+	s.age = age
+}
+```
+
+
 ## Interface
 
 Interface basically groups types together based on their **methods**
