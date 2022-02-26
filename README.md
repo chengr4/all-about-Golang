@@ -6,7 +6,10 @@
 
 ## TOLEARN NEXT
 
-+ `[]byte()`
+- `[]byte()`
+- struct tag
+
+> https://www.digitalocean.com/community/tutorials/how-to-use-struct-tags-in-go
 
 ## Module Management
 
