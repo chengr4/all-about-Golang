@@ -19,6 +19,10 @@
 - `go get`: add the new dependency
 - `go mod tidy`: 自動刪除未使用的 dependencies
 
+## Naming
+
+- https://stackoverflow.com/questions/25161774/what-are-conventions-for-filenames-in-go
+
 ## Attrbiute
 
 + Strong and statically typed
