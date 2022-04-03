@@ -13,7 +13,7 @@
 
 ## Module Management
 
-- `go mod init`: init project
+- `go mod init <name with path>`: init project
 - `go build`
 - `go list -m all`: 查看 dependency
 - `go get`: add the new dependency
