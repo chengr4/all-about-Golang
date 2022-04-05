@@ -1,8 +1,8 @@
 # All About Golang
 
-[first-try](./tutorials/first-try): This folder includes some try of Golang
-
-[Golang types](./go-types)
+- [first-try](./tutorials/first-try): This folder includes some try of Golang
+- [Golang types](./go-types)
+- [Pointer](./pointer)
 
 ## TOLEARN NEXT
 
