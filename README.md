@@ -4,6 +4,12 @@
 - [Golang types](./go-types)
 - [Pointer](./pointer)
 
+---
+
+- In Go, we have convention to put the test file in the same folder with the code
+
+> `XXXX_test.go`: use test suffix
+
 ## TOLEARN NEXT
 
 - `[]byte()`
