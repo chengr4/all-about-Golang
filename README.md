@@ -12,6 +12,12 @@
 
 > `XXXX_test.go`: use test suffix
 
+```
+go test -v -cover ./...
+```
+
+`./...`: run unit tests in all of tests
+
 ## TOLEARN NEXT
 
 - `[]byte()`
