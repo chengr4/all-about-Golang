@@ -3,10 +3,12 @@
 - [first-try](./tutorials/first-try): This folder includes some try of Golang
 - [Golang types](./go-types)
 - [Pointer](./pointer)
+- [Function](./function/)
 
 ---
 
-- In Go, we have convention to put the test file in the same folder with the code
+- Go is a pass-by-value language
+- In Go, we have convention to put the test file in the same folder with the code (timestamp: 2022)
 
 > `XXXX_test.go`: use test suffix
 
