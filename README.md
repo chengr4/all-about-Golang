@@ -7,6 +7,12 @@
 
 ---
 
+TO READ (new to old):
+
+- [2023.02](https://tachunwu.github.io/posts/sqlc/?fbclid=IwAR0k6fKsx9ASvZJiLqmNwz2BwaXkBfrCCGAHST-fc5cjjixuDAfgj4x0hA4)
+
+---
+
 - Go is a pass-by-value language
 - In Go, we have convention to put the test file in the same folder with the code (timestamp: 2022)
 
