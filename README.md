@@ -21,6 +21,7 @@ go test -v -cover ./...
 ## Useful Tools
 
 - [golang-migrate](https://github.com/golang-migrate/migrate)
+- To generate type-safe code from SQL: [sqlc](https://github.com/kyleconroy/sqlc)
 
 ## TO READ (new to old):
 
