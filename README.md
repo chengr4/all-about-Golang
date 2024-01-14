@@ -105,6 +105,7 @@ go build -o exec
 1. [Learn Go Programming - Golang Tutorial for Beginners (2019.6)](https://youtu.be/YS4e4q9oBaU)
 2. [The Net Ninja; Go Tutorial (Golang) for Beginners (2021)](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gC88BEo9czgyS72A3doDeM)
 3. [Standard library](https://pkg.go.dev/std)
+4. [Go 14年來的正與負](https://commandcenter.blogspot.com/2024/01/what-we-got-right-what-we-got-wrong.html)
 
 ### High Concurrency
 
