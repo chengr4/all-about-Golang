@@ -5,6 +5,8 @@
 - [Pointer](./pointer)
 - [Function](./function/)
 
+- [Logs of learning Golang](./logs)
+
 ---
 
 - Go is a pass-by-value language
